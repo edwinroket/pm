@@ -3,7 +3,7 @@ import sqlite3
 import os
 import time
 
-db_path = "/home/admin/Desktop/pm/aire.db"
+db_path = "/app/aire.db"
 
 centrales = {
     "munisclem": ["/munisclem/Aire/tt", "/munisclem/Aire/hh", "/munisclem/Aire/pm25", "/munisclem/Aire/pm10", "/munisclem/Aire/fecha"],
