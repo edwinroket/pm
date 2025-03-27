@@ -82,7 +82,7 @@ def iniciar_cliente():
             print(f"error en la conexion: {e}. reintentando en 5 segundos...")
             time.sleep(5)
 
-broker = "test.mosquitto.org"
+broker = "broker.hivemq.com"
 port = 1883
 
 crear_tabla()
